@@ -18,7 +18,6 @@ baseurl:          /
 author:
   name:           Camelia
   url:            http://ladyofthekitchen.com
-  email:          cmoher2@gmail.com
 
 # Custom vars
 version:          1.0.0
