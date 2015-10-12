@@ -19,7 +19,7 @@ title: Home
     </header>
     <section class="post_content clearfix">
         {% if post.img %}
-        <a href="{{ post.url }}"><img src="{{site.img_url}}/{{ post.img.large }}" width="800" height="533" class="aligncenter size-full wp-image-11686 pib-hover-img"/></a>
+        <a href="{{ post.url }}"><img src="{{site.img_url}}{{ post.img.large }}" width="800" height="533" class="aligncenter size-full wp-image-11686 pib-hover-img"/></a>
         {% endif %}
         {% if post.content contains "<!-- more -->" %}
             {{ post.content | split:"<!-- more -->" | first % }}
